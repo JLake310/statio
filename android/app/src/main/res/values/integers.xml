@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 세로 분할 창(폭 약 840dp) 기준 개수입니다. 가로 전체 창은 values-w1200dp에 있어요. -->
+<resources>
+    <integer name="check_lot_count">1</integer>
+    <integer name="arrival_lot_count">3</integer>
+</resources>

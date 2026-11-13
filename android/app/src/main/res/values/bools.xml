@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 가로 전체 창(폭 1200dp 이상)인지입니다. -->
+    <bool name="wide">false</bool>
+</resources>

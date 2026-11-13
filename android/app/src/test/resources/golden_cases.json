@@ -1,0 +1,2301 @@
+[
+ {
+  "label": "광화문 세종대로",
+  "lat": 37.57256,
+  "lon": 126.97829,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "171721",
+    "distance_m": 232,
+    "per_10min_krw": 860,
+    "per_hour_krw": 5160
+   },
+   {
+    "id": "1386536",
+    "distance_m": 415,
+    "per_10min_krw": 1400,
+    "per_hour_krw": 8400
+   },
+   {
+    "id": "1512147",
+    "distance_m": 514,
+    "per_10min_krw": 1200,
+    "per_hour_krw": 7200
+   },
+   {
+    "id": "STD-101-1-000004",
+    "distance_m": 528,
+    "per_10min_krw": 1100,
+    "per_hour_krw": 7100
+   }
+  ]
+ },
+ {
+  "label": "위험 없음(한강 위)",
+  "lat": 37.517,
+  "lon": 126.996,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "none",
+  "risks": [],
+  "lots": []
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.563913,
+  "lon": 127.173893,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 9,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hydrant",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-124-1-000004",
+    "distance_m": 189,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "1370100",
+    "distance_m": 271,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "2992242",
+    "distance_m": 676,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.518069,
+  "lon": 127.017297,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 17,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1140909",
+    "distance_m": 224,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.558043,
+  "lon": 126.973651,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 22,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 22,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 5,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1510726",
+    "distance_m": 118,
+    "per_10min_krw": 1200,
+    "per_hour_krw": 7200
+   },
+   {
+    "id": "1512008",
+    "distance_m": 118,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   },
+   {
+    "id": "171953",
+    "distance_m": 118,
+    "per_10min_krw": 900,
+    "per_hour_krw": 5400
+   },
+   {
+    "id": "STD-101-1-000018#3",
+    "distance_m": 118,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   },
+   {
+    "id": "STD-101-1-000019",
+    "distance_m": 118,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.536607,
+  "lon": 126.974448,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 23,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 23,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "3247278",
+    "distance_m": 371,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.562888,
+  "lon": 126.992981,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 25,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 25,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1576347",
+    "distance_m": 145,
+    "per_10min_krw": 1620,
+    "per_hour_krw": 9720
+   },
+   {
+    "id": "1511816",
+    "distance_m": 228,
+    "per_10min_krw": 1360,
+    "per_hour_krw": 8160
+   },
+   {
+    "id": "173828",
+    "distance_m": 315,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   },
+   {
+    "id": "STD-101-1-000002#2",
+    "distance_m": 409,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   },
+   {
+    "id": "STD-101-2-000016",
+    "distance_m": 494,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.465289,
+  "lon": 126.896626,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "173123",
+    "distance_m": 159,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   },
+   {
+    "id": "STD-117-2-000001",
+    "distance_m": 164,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   },
+   {
+    "id": "3246749",
+    "distance_m": 288,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   },
+   {
+    "id": "3053665",
+    "distance_m": 342,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   },
+   {
+    "id": "STD-117-2-000002",
+    "distance_m": 342,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.550805,
+  "lon": 126.916738,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.486317,
+  "lon": 127.029546,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 22,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "2877728",
+    "distance_m": 526,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1042421",
+    "distance_m": 639,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.546355,
+  "lon": 127.05779,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 17,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 17,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 4,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "cctv 근처",
+  "lat": 37.50236,
+  "lon": 127.103914,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 23,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 23,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 12,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "school_zone",
+    "distance_m": 95,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1584060",
+    "distance_m": 522,
+    "per_10min_krw": 500,
+    "per_hour_krw": 500
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.644918,
+  "lon": 127.060744,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 5,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 12,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-110-2-000020",
+    "distance_m": 215,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-110-1-000011",
+    "distance_m": 483,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.497846,
+  "lon": 126.926486,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 29,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 29,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hydrant",
+    "distance_m": 4,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "3124871",
+    "distance_m": 131,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "3060844",
+    "distance_m": 261,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.509787,
+  "lon": 127.065696,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 9,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1495682",
+    "distance_m": 174,
+    "per_10min_krw": 600,
+    "per_hour_krw": 3600
+   },
+   {
+    "id": "1564815",
+    "distance_m": 174,
+    "per_10min_krw": 600,
+    "per_hour_krw": 3600
+   },
+   {
+    "id": "STD-122-1-000023",
+    "distance_m": 200,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "173437",
+    "distance_m": 269,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "1495425",
+    "distance_m": 505,
+    "per_10min_krw": 600,
+    "per_hour_krw": 3600
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.452425,
+  "lon": 126.892456,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "173141",
+    "distance_m": 422,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   },
+   {
+    "id": "STD-117-2-000007",
+    "distance_m": 422,
+    "per_10min_krw": 130,
+    "per_hour_krw": 780
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.596,
+  "lon": 127.096493,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-106-2-000003",
+    "distance_m": 179,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "1554869",
+    "distance_m": 214,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "3247188",
+    "distance_m": 477,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "3247195",
+    "distance_m": 528,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "172303",
+    "distance_m": 687,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   }
+  ]
+ },
+ {
+  "label": "hydrant 근처",
+  "lat": 37.515619,
+  "lon": 127.03865,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 1,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 14,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "school_zone",
+    "distance_m": 37,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-122-1-000009",
+    "distance_m": 401,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1495734",
+    "distance_m": 693,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.650903,
+  "lon": 127.068694,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "crosswalk",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 23,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1454202",
+    "distance_m": 476,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "1454055",
+    "distance_m": 507,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "STD-110-1-000012",
+    "distance_m": 543,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "2978129",
+    "distance_m": 666,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "1454520",
+    "distance_m": 687,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.494522,
+  "lon": 127.03998,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1364466",
+    "distance_m": 236,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1042402",
+    "distance_m": 601,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1568792",
+    "distance_m": 684,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "STD-122-3-000002#2",
+    "distance_m": 697,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.531025,
+  "lon": 127.006693,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 39,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 1,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-102-2-000002#2",
+    "distance_m": 126,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.566691,
+  "lon": 127.000054,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 4,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 5,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 22,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1586294",
+    "distance_m": 214,
+    "per_10min_krw": 1360,
+    "per_hour_krw": 8160
+   },
+   {
+    "id": "1509853",
+    "distance_m": 228,
+    "per_10min_krw": 1500,
+    "per_hour_krw": 9000
+   },
+   {
+    "id": "1577094",
+    "distance_m": 238,
+    "per_10min_krw": 1240,
+    "per_hour_krw": 7440
+   },
+   {
+    "id": "1235522",
+    "distance_m": 263,
+    "per_10min_krw": 1500,
+    "per_hour_krw": 9000
+   },
+   {
+    "id": "1512129",
+    "distance_m": 282,
+    "per_10min_krw": 1500,
+    "per_hour_krw": 9000
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.536199,
+  "lon": 126.829679,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 4,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 1,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 12,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-114-2-000015",
+    "distance_m": 117,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "1588362",
+    "distance_m": 213,
+    "per_10min_krw": 100,
+    "per_hour_krw": 600
+   },
+   {
+    "id": "1540609",
+    "distance_m": 389,
+    "per_10min_krw": 450,
+    "per_hour_krw": 1950
+   },
+   {
+    "id": "2906289",
+    "distance_m": 399,
+    "per_10min_krw": 50,
+    "per_hour_krw": 50
+   },
+   {
+    "id": "1540766",
+    "distance_m": 402,
+    "per_10min_krw": 450,
+    "per_hour_krw": 1950
+   }
+  ]
+ },
+ {
+  "label": "crosswalk 근처",
+  "lat": 37.595501,
+  "lon": 127.082633,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "crosswalk",
+    "distance_m": 9,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "2933119",
+    "distance_m": 596,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "STD-106-2-000021",
+    "distance_m": 613,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   }
+  ]
+ },
+ {
+  "label": "bus_stop 근처",
+  "lat": 37.556206,
+  "lon": 126.899277,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "crosswalk",
+    "distance_m": 15,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "bus_stop 근처",
+  "lat": 37.553712,
+  "lon": 126.92314,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 12,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 34,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "bus_stop 근처",
+  "lat": 37.521553,
+  "lon": 127.034882,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "bus_stop",
+    "distance_m": 6,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1495582",
+    "distance_m": 189,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1495734",
+    "distance_m": 329,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "STD-122-1-000008",
+    "distance_m": 572,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   }
+  ]
+ },
+ {
+  "label": "bus_stop 근처",
+  "lat": 37.510044,
+  "lon": 126.92412,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 53,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hydrant",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 1,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-118-2-000025",
+    "distance_m": 244,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "1448769",
+    "distance_m": 347,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "2944092",
+    "distance_m": 488,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "STD-118-1-000008",
+    "distance_m": 681,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "bus_lane 근처",
+  "lat": 37.610928,
+  "lon": 127.030126,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "bus_lane",
+    "distance_m": 30,
+    "active_now": true,
+    "fine_krw": 50000
+   }
+  ],
+  "lots": [
+   {
+    "id": "2996022",
+    "distance_m": 301,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   },
+   {
+    "id": "172550",
+    "distance_m": 315,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   },
+   {
+    "id": "1576514",
+    "distance_m": 674,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "bus_lane 근처",
+  "lat": 37.647549,
+  "lon": 127.062955,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "bus_lane",
+    "distance_m": 9,
+    "active_now": true,
+    "fine_krw": 50000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-110-2-000020",
+    "distance_m": 506,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-110-1-000012",
+    "distance_m": 578,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.563996,
+  "lon": 126.961593,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "crosswalk",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "bus_stop",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "3181032",
+    "distance_m": 279,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "3174612",
+    "distance_m": 443,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "STD-112-2-000009",
+    "distance_m": 526,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-112-2-000004",
+    "distance_m": 635,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-112-2-000008",
+    "distance_m": 644,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.535365,
+  "lon": 127.094211,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 30,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 30,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hydrant",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 13,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 22,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1247659",
+    "distance_m": 491,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "172198",
+    "distance_m": 646,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.488208,
+  "lon": 126.884584,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "none",
+  "risks": [],
+  "lots": [
+   {
+    "id": "STD-116-4-000012",
+    "distance_m": 104,
+    "per_10min_krw": 3000,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "STD-116-4-000048",
+    "distance_m": 111,
+    "per_10min_krw": 3000,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "STD-116-4-000046",
+    "distance_m": 174,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-116-4-000047",
+    "distance_m": 249,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "1432682",
+    "distance_m": 255,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.562047,
+  "lon": 127.006461,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "crosswalk",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 5,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "171971",
+    "distance_m": 510,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   },
+   {
+    "id": "STD-101-2-000021",
+    "distance_m": 572,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "STD-101-2-000005",
+    "distance_m": 573,
+    "per_10min_krw": 1100,
+    "per_hour_krw": 6600
+   },
+   {
+    "id": "171901",
+    "distance_m": 614,
+    "per_10min_krw": 900,
+    "per_hour_krw": 5400
+   },
+   {
+    "id": "1577094",
+    "distance_m": 622,
+    "per_10min_krw": 1240,
+    "per_hour_krw": 7440
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.55841,
+  "lon": 127.080236,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 11,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "school_zone",
+    "distance_m": 38,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "172204",
+    "distance_m": 486,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   },
+   {
+    "id": "3246959",
+    "distance_m": 682,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.597388,
+  "lon": 127.100265,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 80000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 13,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1554869",
+    "distance_m": 153,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "STD-106-2-000003",
+    "distance_m": 188,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "3247195",
+    "distance_m": 596,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.642097,
+  "lon": 126.939939,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 17,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "2926344",
+    "distance_m": 235,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.480384,
+  "lon": 126.929973,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 45,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "intersection",
+    "distance_m": 20,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1487237",
+    "distance_m": 343,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "3249046",
+    "distance_m": 346,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "STD-120-2-000023",
+    "distance_m": 407,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "STD-120-2-000020",
+    "distance_m": 516,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "1486978",
+    "distance_m": 598,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   }
+  ]
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.53414,
+  "lon": 126.988166,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "intersection",
+    "distance_m": 7,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "intersection 근처",
+  "lat": 37.46225,
+  "lon": 127.045821,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "intersection",
+    "distance_m": 5,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.571225,
+  "lon": 126.80836,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "caution",
+  "risks": [
+   {
+    "kind": "school_zone",
+    "distance_m": 0,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "172979",
+    "distance_m": 301,
+    "per_10min_krw": 580,
+    "per_hour_krw": 3480
+   }
+  ]
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.562738,
+  "lon": 127.020604,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "caution",
+  "risks": [
+   {
+    "kind": "school_zone",
+    "distance_m": 33,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "171965",
+    "distance_m": 417,
+    "per_10min_krw": 600,
+    "per_hour_krw": 3600
+   },
+   {
+    "id": "1041839",
+    "distance_m": 539,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "STD-101-2-000025",
+    "distance_m": 575,
+    "per_10min_krw": 700,
+    "per_hour_krw": 4700
+   }
+  ]
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.658217,
+  "lon": 127.021195,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "school_zone",
+    "distance_m": 86,
+    "active_now": true,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-109-2-000036",
+    "distance_m": 568,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   }
+  ]
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.519337,
+  "lon": 126.872426,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 48,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "school_zone",
+    "distance_m": 46,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-114-1-000015",
+    "distance_m": 287,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "1540785",
+    "distance_m": 289,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "3156969",
+    "distance_m": 419,
+    "per_10min_krw": 150,
+    "per_hour_krw": 150
+   },
+   {
+    "id": "1588371",
+    "distance_m": 476,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "1540806",
+    "distance_m": 529,
+    "per_10min_krw": 150,
+    "per_hour_krw": 150
+   }
+  ]
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.474235,
+  "lon": 127.099933,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "caution",
+  "risks": [
+   {
+    "kind": "school_zone",
+    "distance_m": 61,
+    "active_now": false,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": []
+ },
+ {
+  "label": "school_zone 근처",
+  "lat": 37.504017,
+  "lon": 127.062464,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 49,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "school_zone",
+    "distance_m": 81,
+    "active_now": true,
+    "fine_krw": 120000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-122-2-000011",
+    "distance_m": 243,
+    "per_10min_krw": 600,
+    "per_hour_krw": 3600
+   },
+   {
+    "id": "1495596",
+    "distance_m": 299,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1566024",
+    "distance_m": 494,
+    "per_10min_krw": 200,
+    "per_hour_krw": 1200
+   },
+   {
+    "id": "STD-122-1-000023",
+    "distance_m": 517,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "1565220",
+    "distance_m": 522,
+    "per_10min_krw": 400,
+    "per_hour_krw": 2400
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.658098,
+  "lon": 127.074869,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 2,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "3037642",
+    "distance_m": 401,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "2978129",
+    "distance_m": 652,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.507863,
+  "lon": 127.087764,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hotspot",
+    "distance_m": 10,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1684764",
+    "distance_m": 188,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.49897,
+  "lon": 126.910819,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hotspot",
+    "distance_m": 25,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "crosswalk",
+    "distance_m": 12,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1368749",
+    "distance_m": 633,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.557653,
+  "lon": 126.976547,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "cctv",
+    "distance_m": 3,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hotspot",
+    "distance_m": 3,
+    "active_now": true,
+    "fine_krw": 40000
+   },
+   {
+    "kind": "hydrant",
+    "distance_m": 4,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1511639",
+    "distance_m": 93,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   },
+   {
+    "id": "STD-101-1-000008",
+    "distance_m": 207,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "STD-101-1-000011",
+    "distance_m": 246,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "STD-101-1-000003",
+    "distance_m": 248,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "1510726",
+    "distance_m": 287,
+    "per_10min_krw": 1200,
+    "per_hour_krw": 7200
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.532914,
+  "lon": 126.958581,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hotspot",
+    "distance_m": 3,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "3210905",
+    "distance_m": 160,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "3210884",
+    "distance_m": 184,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "3210855",
+    "distance_m": 396,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "3210901",
+    "distance_m": 401,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "3210900",
+    "distance_m": 438,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   }
+  ]
+ },
+ {
+  "label": "hotspot 근처",
+  "lat": 37.500195,
+  "lon": 126.894146,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hotspot",
+    "distance_m": 13,
+    "active_now": true,
+    "fine_krw": 40000
+   }
+  ],
+  "lots": [
+   {
+    "id": "1025697",
+    "distance_m": 60,
+    "per_10min_krw": 100,
+    "per_hour_krw": 600
+   },
+   {
+    "id": "1499707",
+    "distance_m": 497,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "984688",
+    "distance_m": 531,
+    "per_10min_krw": 300,
+    "per_hour_krw": 1800
+   },
+   {
+    "id": "STD-116-4-000049",
+    "distance_m": 550,
+    "per_10min_krw": 3000,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "1367120",
+    "distance_m": 601,
+    "per_10min_krw": 640,
+    "per_hour_krw": 3840
+   }
+  ]
+ },
+ {
+  "label": "주차장 근처",
+  "lat": 37.616042,
+  "lon": 127.063782,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "none",
+  "risks": [],
+  "lots": [
+   {
+    "id": "1366903",
+    "distance_m": 108,
+    "per_10min_krw": 560,
+    "per_hour_krw": 3360
+   },
+   {
+    "id": "STD-110-2-000021",
+    "distance_m": 134,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   },
+   {
+    "id": "3152733",
+    "distance_m": 239,
+    "per_10min_krw": 260,
+    "per_hour_krw": 260
+   }
+  ]
+ },
+ {
+  "label": "주차장 근처",
+  "lat": 37.559861,
+  "lon": 126.977066,
+  "when": "2026-10-22T21:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "high",
+  "risks": [
+   {
+    "kind": "hydrant",
+    "distance_m": 8,
+    "active_now": true,
+    "fine_krw": 80000
+   }
+  ],
+  "lots": [
+   {
+    "id": "STD-101-1-000003",
+    "distance_m": 22,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "STD-101-1-000008",
+    "distance_m": 86,
+    "per_10min_krw": 0,
+    "per_hour_krw": 0
+   },
+   {
+    "id": "1236612",
+    "distance_m": 123,
+    "per_10min_krw": 800,
+    "per_hour_krw": 4800
+   },
+   {
+    "id": "STD-101-1-000017#2",
+    "distance_m": 124,
+    "per_10min_krw": 1200,
+    "per_hour_krw": 7200
+   },
+   {
+    "id": "1511639",
+    "distance_m": 209,
+    "per_10min_krw": 1000,
+    "per_hour_krw": 6000
+   }
+  ]
+ },
+ {
+  "label": "주차장 근처",
+  "lat": 37.486745,
+  "lon": 126.837675,
+  "when": "2026-10-22T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "none",
+  "risks": [],
+  "lots": [
+   {
+    "id": "1404936",
+    "distance_m": 146,
+    "per_10min_krw": 560,
+    "per_hour_krw": 3360
+   }
+  ]
+ },
+ {
+  "label": "주차장 근처",
+  "lat": 37.655977,
+  "lon": 127.05827,
+  "when": "2026-10-24T14:00",
+  "margin_m": 5,
+  "radius_m": 700,
+  "risk_level": "none",
+  "risks": [],
+  "lots": [
+   {
+    "id": "1584204",
+    "distance_m": 233,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "1453857",
+    "distance_m": 314,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "1570842",
+    "distance_m": 319,
+    "per_10min_krw": 250,
+    "per_hour_krw": 250
+   },
+   {
+    "id": "2882454",
+    "distance_m": 319,
+    "per_10min_krw": 500,
+    "per_hour_krw": 3000
+   },
+   {
+    "id": "STD-110-1-000012",
+    "distance_m": 549,
+    "per_10min_krw": null,
+    "per_hour_krw": null
+   }
+  ]
+ }
+]

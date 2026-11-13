@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Statio</string>
+    <string name="notice">서울시 공공데이터(단속 CCTV·주민신고 구역 위치) 기반 추정 안내예요. 단속 여부를 보장하지 않아요.</string>
+    <string name="arrival_notice">빈자리는 서울시 실시간 정보 기준이에요. 도착 시 예상은 지난 기록으로 추정한 값이에요.</string>
+    <string name="arrival_notice_ai">빈자리는 서울시 실시간 정보 기준이에요. 도착 시 예상은 차 안의 AI 모델이 지난 기록을 학습해 예측한 값이에요.</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!-- Vehicle SDK 조회 권한 (normal, 설치할 때 자동으로 허용돼요) -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_DOORS" />
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+
+    <!-- NaviHelper (normal): 조회 함수는 NAVI_ROUTE, 경로 요청·취소는 NAVI_ROUTE_SEARCH도 필요해요 -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+
+    <!-- 서울시 실시간 빈자리 API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- AAOS 표준 속성 비교용 (검증 화면) -->
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+
+    <application
+        android:name=".StatioApp"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.Statio">
+
+        <uses-library
+            android:name="android.car"
+            android:required="false" />
+
+        <!-- 주행 중에도 열 수 있게 주행 규제 대응 화면으로 표시해요.
+             내비 옆 분할 창과 전체 창을 오갈 때 다시 만들지 않고 화면만 다시 그려요(configChanges). -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 차량·내비 신호 검증 화면 (adb로만 열어요) -->
+        <activity
+            android:name=".ProbeActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+        </activity>
+    </application>
+</manifest>

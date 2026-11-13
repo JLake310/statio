@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 하차 순간의 위치 기록, 세로 분할 창용 (design/png/03_층선택_위치기록.png) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/parked_title"
+        style="@style/Text.TitleL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/parked_sub"
+        style="@style/Text.BodyM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_3" />
+
+    <!-- 층 버튼은 코드에서 채워요 (B1 B2 B3 / B4 1F 모름) -->
+    <LinearLayout
+        android:id="@+id/floor_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_card"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/qr_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@color/basic_00"
+            android:contentDescription="휴대폰으로 위치 받기 QR"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.TitleS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="휴대폰으로 위치 받기" />
+
+            <TextView
+                android:id="@+id/qr_desc"
+                style="@style/Text.BodyS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="@color/text_3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fee_card"
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Text.TitleS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="요금 안내" />
+
+        <TextView
+            android:id="@+id/fee_step"
+            style="@style/Text.BodyM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="@color/text_2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/fee_summary_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text.LabelM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="요금" />
+
+        <TextView
+            android:id="@+id/fee_summary"
+            style="@style/Text.TitleS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_parked_done"
+        style="@style/Button.Basic"
+        android:layout_width="match_parent"
+        android:text="닫기" />
+</LinearLayout>

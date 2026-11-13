@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 월간 리포트(시안 05), 가로 전체 창용 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Text.HeadlineS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="이번 달 Statio가 아껴 드린 것" />
+
+    <TextView
+        android:id="@+id/report_sub"
+        style="@style/Text.BodyM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예상 절감액"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/report_saved"
+                style="@style/Text.HeadlineS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/active_text"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/report_saved_note"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="과태료 − 주차비" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단속 위험 경고"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/report_warnings"
+                style="@style/Text.HeadlineS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/report_warnings_note"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="만차 피함"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/report_avoided"
+                style="@style/Text.HeadlineS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/report_avoided_note"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="도착 전 다른 주차장 안내" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자주 간 주차장"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/report_top_lot"
+                style="@style/Text.TitleS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/report_top_lot_note"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Text.TitleS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="주별 단속 위험 경고와 이동" />
+
+            <View
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@drawable/dot"
+                android:backgroundTint="@color/negative" />
+
+            <TextView
+                style="@style/Text.LabelM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="경고" />
+
+            <View
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/dot"
+                android:backgroundTint="@color/active" />
+
+            <TextView
+                style="@style/Text.LabelM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="주차장으로 이동" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1">
+
+            <com.statio.app.ui.WeeklyBarsView
+                android:id="@+id/report_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/report_empty"
+                style="@style/Text.BodyM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.25"
+                android:text="아직 이번 달 기록이 없어요.\nP단 경고를 받고 주차장으로 옮기면 여기에 쌓여요."
+                android:textColor="@color/text_3"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/Text.LabelS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="예상 절감액은 경고 때 과태료 추정에서 옮긴 주차장의 1시간 요금을 뺀 값이에요. 기록은 이 차 안에만 저장돼요." />
+
+    <TextView
+        android:id="@+id/btn_report_close"
+        style="@style/Button.Basic"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:text="닫기" />
+</LinearLayout>

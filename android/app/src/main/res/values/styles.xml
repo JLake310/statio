@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 글자 단계: 디자인 가이드 Headline 48~60, Title 32~40, Body 26~30, Label 20~24 (160dpi라 px = dp) -->
+<resources>
+    <style name="Theme.Statio" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@color/basic_00</item>
+        <item name="android:colorAccent">@color/basic_900</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textColor">@color/text_1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+    <style name="Text.HeadlineM">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.HeadlineS">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.TitleL">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.TitleM">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.TitleS">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.BodyL">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Text.BodyM">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="Text.BodyS">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="Text.LabelM">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_3</item>
+    </style>
+    <style name="Text.LabelS">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_3</item>
+    </style>
+
+    <style name="Card">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:paddingTop">28dp</item>
+        <item name="android:paddingBottom">28dp</item>
+    </style>
+
+    <!-- P단 판단 화면의 카드입니다. 세로 분할 창에서는 약도 자리를 남기려고 위아래 여백을 줄여요(가로 전체 창은 values-w1200dp). -->
+    <style name="CheckCard" parent="Card">
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="Chip" parent="Text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_2</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="Button" parent="Text">
+        <item name="android:layout_height">112dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Button.Filled">
+        <item name="android:background">@drawable/bg_button_filled</item>
+        <item name="android:textColor">@color/basic_00</item>
+    </style>
+    <style name="Button.Basic">
+        <item name="android:background">@drawable/bg_button_basic</item>
+    </style>
+</resources>

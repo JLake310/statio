@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 가로 전체 창은 공간이 넉넉해서 보통 카드와 같아요. -->
+    <style name="CheckCard" parent="Card" />
+</resources>

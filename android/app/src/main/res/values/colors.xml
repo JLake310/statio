@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleos Connect UI Design Guide 라이트 테마 색상 (design/mock.css와 같은 값) -->
+<resources>
+    <color name="basic_00">#FFFFFF</color>
+    <color name="basic_50">#F7F8FA</color>
+    <color name="basic_100">#EDEEF2</color>
+    <color name="basic_200">#E0E1E6</color>
+    <color name="basic_300">#C7C9CE</color>
+    <color name="basic_400">#A4A8AE</color>
+    <color name="basic_500">#686A72</color>
+    <color name="basic_600">#44464E</color>
+    <color name="basic_700">#313236</color>
+    <color name="basic_800">#1D1E21</color>
+    <color name="basic_900">#131417</color>
+
+    <!-- informative: 빈자리 넉넉함 / 실시간·안내 / 단속 위험 -->
+    <color name="active">#02C265</color>
+    <color name="active_text">#02A457</color>
+    <color name="positive">#0064FF</color>
+    <color name="negative">#FE3D16</color>
+    <color name="caution">#FF7A3D</color>
+
+    <color name="active_tint">#1402C265</color>
+    <color name="positive_tint">#1A0064FF</color>
+    <color name="negative_tint">#14FE3D16</color>
+    <color name="negative_chip">#1FFE3D16</color>
+    <color name="negative_line">#26FE3D16</color>
+    <color name="caution_tint">#1AFF7A3D</color>
+    <color name="button_basic">#0D131417</color>
+
+    <color name="text_1">@color/basic_900</color>
+    <color name="text_2">@color/basic_600</color>
+    <color name="text_3">@color/basic_500</color>
+    <color name="text_4">@color/basic_400</color>
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- P단 순간의 판단 화면 (design/png/02_P단_단속경고.png) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/verdict_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_warn"
+            android:orientation="vertical"
+            android:paddingStart="40dp"
+            android:paddingTop="36dp"
+            android:paddingEnd="40dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/verdict_icon"
+                    style="@style/Text"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_icon_bad"
+                    android:gravity="center"
+                    android:text="!"
+                    android:textColor="@color/basic_00"
+                    android:textSize="48sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/verdict_title"
+                    style="@style/Text.HeadlineS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/negative" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/verdict_place"
+                style="@style/Text.BodyL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/text_2" />
+
+            <LinearLayout
+                android:id="@+id/risk_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/map_card"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_map"
+            android:clipToOutline="true">
+
+            <com.statio.app.ui.RiskMapView
+                android:id="@+id/risk_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:text="■ 내 차" />
+
+                <TextView
+                    android:id="@+id/legend_risk"
+                    style="@style/Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/bg_chip_bad"
+                    android:textColor="@color/negative" />
+
+                <TextView
+                    android:id="@+id/legend_lot"
+                    style="@style/Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/bg_chip_ok"
+                    android:textColor="@color/active_text" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/notice"
+            style="@style/Text.LabelM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/notice" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fine_label"
+                    style="@style/Text.BodyM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_3" />
+
+                <TextView
+                    android:id="@+id/fine_value"
+                    style="@style/Text.HeadlineM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/negative" />
+
+                <TextView
+                    android:id="@+id/fine_note"
+                    style="@style/Text.LabelM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Text.BodyM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주차장에 세우면"
+                    android:textColor="@color/text_3" />
+
+                <TextView
+                    android:id="@+id/lot_fee_value"
+                    style="@style/Text.HeadlineM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/active" />
+
+                <TextView
+                    android:id="@+id/lot_fee_note"
+                    style="@style/Text.LabelM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lot_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btn_route"
+            style="@style/Button.Filled"
+            android:layout_width="match_parent"
+            android:text="주차장으로 안내" />
+
+        <TextView
+            android:id="@+id/btn_dismiss"
+            style="@style/Button.Basic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:text="잠깐만 세울게요" />
+    </LinearLayout>
+</LinearLayout>

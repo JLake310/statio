@@ -1,0 +1,16 @@
+# 비밀값과 원본·수집 데이터 (data/raw, data/*.db, 로그)
+.env
+/data/
+
+# release 서명 키 (.env의 RELEASE_* 값과 함께 따로 보관해요)
+.signing/
+*.jks
+*.keystore
+
+# 파이썬 (.venv는 ml/ 학습용 가상환경)
+__pycache__/
+.venv/
+*.pyc
+
+# macOS
+.DS_Store

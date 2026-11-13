@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 기다리는 화면, 세로 분할 창용 (가로 전체 창은 layout-w1200dp) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Text.TitleL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="P단에 두면 바로 확인해 드릴게요" />
+
+    <!-- 분할 창은 세로 공간이 좁아 설명 줄 없이 제목만 둬요(리포트 카드 자리). -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기어"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/gear_value"
+                style="@style/Text.HeadlineS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/vehicle_state"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/location_value"
+                style="@style/Text.TitleS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/location_source"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="실시간 빈자리"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/live_value"
+                style="@style/Text.TitleS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="–" />
+
+            <TextView
+                android:id="@+id/live_note"
+                style="@style/Text.LabelS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/record_card"
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="마지막 주차 위치 · 누르면 QR"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/record_value"
+                style="@style/Text.TitleS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/report_card"
+            style="@style/Card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.BodyS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이번 달 리포트 · 누르면 자세히"
+                android:textColor="@color/text_3" />
+
+            <TextView
+                android:id="@+id/report_card_value"
+                style="@style/Text.BodyM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Text.TitleS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시연 위치" />
+
+        <TextView
+            style="@style/Text.LabelS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="에뮬레이터 내비 위치는 한곳에 고정이라, P단 판단에 쓸 위치를 고를 수 있어요." />
+
+        <LinearLayout
+            android:id="@+id/scenario_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/btn_check_now"
+        style="@style/Button.Filled"
+        android:layout_width="match_parent"
+        android:text="지금 위치 확인" />
+</LinearLayout>

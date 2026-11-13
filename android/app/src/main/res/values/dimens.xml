@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- P단 판단 화면 위험 한 줄의 위아래 여백입니다. 세로 분할 창에서는 위험이 둘이어도 약도가 들어가게 줄여요. -->
+    <dimen name="risk_row_padding">12dp</dimen>
+</resources>

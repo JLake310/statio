@@ -1,0 +1,4 @@
+# 빈자리 예측 학습·평가용 (python3 -m venv .venv 뒤 .venv/bin/pip install -r ml/requirements.txt)
+numpy==2.2.4
+pandas==2.2.3
+scikit-learn==1.6.1
